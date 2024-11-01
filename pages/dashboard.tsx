@@ -1,9 +1,9 @@
 import DefaultLayout from "@/layouts/default";
 
-export default function ForgotPage() {
+export default function Dashbard() {
   return (
     <DefaultLayout>
-      <span>forgot-password</span>
+      <span>Dashbard</span>
     </DefaultLayout>
   )
 };
