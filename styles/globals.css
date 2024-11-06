@@ -6,3 +6,8 @@
 body {
   font-family: 'Roboto', sans-serif;
 }
+
+.sub-menu {
+  overflow: hidden;
+  transition: height 300ms;
+}

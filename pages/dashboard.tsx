@@ -1,9 +1,10 @@
-import DefaultLayout from "@/layouts/default";
 
+
+import DashboardLayout from "@/layouts/dashboard";
 export default function Dashbard() {
   return (
-    <DefaultLayout>
+    <DashboardLayout>
       <span>Dashbard</span>
-    </DefaultLayout>
-  )
-};
+    </DashboardLayout>
+  );
+}
