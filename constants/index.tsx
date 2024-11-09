@@ -3,11 +3,9 @@ import { AiOutlineSchedule } from "react-icons/ai";
 import { LuUsers } from "react-icons/lu";
 import { TbReportSearch } from "react-icons/tb";
 import { MdOutlineContactSupport } from "react-icons/md";
-import { IoLogOutOutline } from "react-icons/io5";
 import { LuMessagesSquare } from "react-icons/lu";
 
-
-import { MenuItem } from "@/components/SidebarItem";
+import { MenuItem } from "@/components/menus/SidebarItem";
 
 export const menuItems: MenuItem[] = [
   {
@@ -45,7 +43,7 @@ export const menuItems: MenuItem[] = [
     link: "/support",
     icon: <MdOutlineContactSupport />,
     badge: null,
-  }
+  },
 ];
 
 export const breadcrumbItems = [
@@ -53,4 +51,42 @@ export const breadcrumbItems = [
   { text: "Dashboard", link: "/dashboard" },
   { text: "Agenda", link: "/agenda" },
   { text: "Usuarios", link: "/users" },
+];
+
+export const data = [
+  {
+    name: "Page A",
+    uv: 4000,
+    pv: 2400,
+  },
+  {
+    name: "Page B",
+    uv: 3000,
+    pv: 1398,
+  },
+  {
+    name: "Page C",
+    uv: 2000,
+    pv: 9800,
+  },
+  {
+    name: "Page D",
+    uv: 2780,
+    pv: 3908,
+  },
+  {
+    name: "Page E",
+    uv: 1890,
+    pv: 4800,
+  },
+  {
+    name: "Page F",
+    uv: 2390,
+    pv: 3800,
+  },
+  {
+    name: "Page G",
+    uv: 3490,
+    pv: 4300,
+  },
 ];

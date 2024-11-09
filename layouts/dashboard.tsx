@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import { Sidebar } from "@/components/Sidebar";
-import { Navbar } from "@/components/Navbar";
+import { Sidebar } from "@/components/menus/Sidebar";
+import { Navbar } from "@/components/menus/Navbar";
 
 export default function DefaultLayout({
   children,
